@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliberative Democracy Clubs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="Deliberative Democracy Clubs" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#clubs" class="nav-link">Clubs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#highlights" class="nav-link">Highlights</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Deliberative Democracy<br>Clubs</h1>
+                    <p class="hero-subtitle">Exploring how deliberative practices can strengthen our communities and democratic institutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#clubs" class="btn btn-primary" onclick="showPage('clubs')">Find a Club</a>
+                        <a href="#about" class="btn btn-secondary" onclick="showPage('about')">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="background-section">
+                <div class="container">
+                    <h2 class="background-title">Background of Deliberative Polling™</h2>
+                    <p class="background-text">Pioneered by James Fishkin at Stanford University's Deliberative Democracy Lab, Deliberative Polling™ attempts to answer the question: What would a representative sample of the public think about policy issues if it were more informed? And if they could weigh the pros and cons of different policy options under good conditions for thinking about them?</p>
+                    <p class="bold-statement">Deliberative Democracy Clubs aim to unlock the potential of Deliberative Polls.</p>
+                    <div class="learn-more-button">
+                        <a href="https://deliberation.stanford.edu/" class="btn btn-outline" target="_blank">Learn more!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="what-we-do-section">
+                <div class="container">
+                    <h2 class="section-title">What We Do</h2>
+                    <div class="what-we-do-grid">
+                        <div class="activity-card">
+                            <div class="card-icon">💬</div>
+                            <h3>National Deliberations</h3>
+                            <p>Chapters will participate in a nationwide online deliberation through the Stanford Deliberation Platform on the first Saturday of each month.</p>
+                        </div>
+                        <div class="activity-card">
+                            <div class="card-icon">👥</div>
+                            <h3>Community Outreach</h3>
+                            <p>Club members and leads are encouraged to reach out to local community members to publicize upcoming deliberations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activities-section">
+                <div class="container">
+                    <div class="activities-grid">
+                        <div class="activity-card">
+                            <h3>Club Meetings</h3>
+                            <p>Chapters will use weekly club meeting times to review briefing materials before deliberations, understand deliberation structure, and brainstorm future topics.</p>
+                        </div>
+                        <div class="activity-card">
+                            <h3>Misc. Activities</h3>
+                            <p>Outside of monthly national deliberations, clubs have the freedom to run their own deliberations tailored to local communities as long as briefing materials are approved beforehand.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <div class="container">
+                    <h2 class="section-title">Our Values</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">1</div>
+                            <h3>Inclusive Dialogue</h3>
+                            <p>We create welcoming spaces where all voices are heard and respected, regardless of background or perspective.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">2</div>
+                            <h3>Evidence-Based Thinking</h3>
+                            <p>Our discussions are grounded in research, facts, and careful analysis of complex issues.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">3</div>
+                            <h3>Collaborative Solutions</h3>
+                            <p>We work together to find common ground and develop solutions that benefit the broader community.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">4</div>
+                            <h3>Civic Impact</h3>
+                            <p>We aim to make a real difference in our communities through informed civic engagement and democratic participation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Clubs Page -->
+        <section id="clubs" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Our Clubs</h1>
+                    <p class="page-subtitle">Find a Deliberative Democracy Club near you</p>
+                </div>
+
+                <div class="clubs-grid">
+                    <div class="club-card">
+                        <h3>Palo Alto High School</h3>
+                        <p class="club-location">Palo Alto, CA</p>
+                        <p class="club-description">Leading discussions on campus policy and community engagement.</p>
+                        <div class="club-contact">
+                            <strong>Chapter President:</strong>
+                        </div>
+                    </div>
+
+                    <div class="club-card">
+                        <h3>Ben Barber Innovation Academy</h3>
+                        <p class="club-location">Mansfield, TX</p>
+                        <p class="club-description">Focusing on innovation in democratic processes and civic engagement.</p>
+                        <div class="club-contact">
+                            <strong>Chapter President:</strong>
+                        </div>
+                    </div>
+
+                    <div class="club-card">
+                        <h3>Columbus School for Girls</h3>
+                        <p class="club-location">Columbus, OH</p>
+                        <p class="club-description">Engaging with local government and community issues.</p>
+                        <div class="club-contact">
+                            <strong>Chapter President:</strong>
+                        </div>
+                    </div>
+
+                    <div class="club-card">
+                        <h3>Carlmont High School</h3>
+                        <p class="club-location">Belmont, CA</p>
+                        <p class="club-description">Addressing local policy and community issues through deliberation.</p>
+                        <div class="club-contact">
+                            <strong>Chapter President:</strong>
+                        </div>
+                    </div>
+
+                    <div class="club-card">
+                        <h3>Flower Mound High School</h3>
+                        <p class="club-location">Flower Mound, TX</p>
+                        <p class="club-description">Building bridges across political divides in the community.</p>
+                        <div class="club-contact">
+                            <strong>Chapter President:</strong>
+                        </div>
+                    </div>
+
+                    <div class="club-card">
+                        <h3>Marcus High School</h3>
+                        <p class="club-location">Flower Mound, TX</p>
+                        <p class="club-description">Connecting students with local civic organizations and community leaders.</p>
+                        <div class="club-contact">
+                            <strong>Chapter President:</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="start-club-section">
+                    <div class="start-club-content">
+                        <h2>Interested in Starting a Club?</h2>
+                        <p>Join our growing network of campus chapters and help bring deliberative democracy to your community.</p>
+                        <a href="https://forms.gle/A1CQNiXf3YeFfNj56" class="btn btn-primary" target="_blank">Fill Out This Form</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Page -->
+        <section id="highlights" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Highlights & Stories</h1>
+                    <p class="page-subtitle">Celebrating our impact and community achievements</p>
+                </div>
+
+                <div class="highlights-grid">
+                    <article class="highlight-card featured">
+                        <div class="highlight-image">
+                            <div class="placeholder-image">🏆</div>
+                        </div>
+                        <div class="highlight-content">
+                            <span class="highlight-category">Funding Success</span>
+                            <h3>DDC Wins First Place at MyImpact Texas Civic Challenge</h3>
+                            <p>Our lead Shriya Sreeju presented the Deliberative Democracy Clubs project at the MyImpact Texas Civic Fair, showcasing our mission to foster civil discourse and democratic engagement among high school students. The presentation was well-received, and we were able to secure $250 in seed funding to support our growing network of clubs.</p>
+                            <div class="highlight-meta">
+                                <span class="highlight-date">2025</span>
+                                <span class="highlight-location">MyImpact Texas Civic Fair</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">About Us</h1>
+                    <p class="page-subtitle">Building a more deliberative democracy, one conversation at a time</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="our-story">
+                        <h2>Our Story</h2>
+                        <p>The Deliberative Democracy Clubs movement began in July 2025 when a group of students recognized the growing polarization and lack of civil discourse among our communities. We noticed that meaningful dialogue was becoming increasingly rare, and we knew something needed to change.</p>
+                        
+                        <p>What started as a small team coming together to address this challenge has grown into a network of high school chapters, each committed to fostering deliberative democracy in their communities. We believe that democracy works best when citizens are informed, engaged, and able to work together across differences to find common solutions.</p>
+                        
+                        <p>Today, our network spans multiple high schools and continues to grow. We're proud to be part of a broader movement toward more deliberative, participatory democracy that values both individual rights and collective responsibility.</p>
+                    </div>
+
+                    <div class="expected-impact-section">
+                        <h2>Expected Impact</h2>
+                        <div class="impact-grid">
+                            <div class="impact-card">
+                                <div class="impact-icon">R</div>
+                                <h3>Research Contribution</h3>
+                                <p>Contributing valuable data to academic research on youth civic engagement and deliberative democracy.</p>
+                            </div>
+                            <div class="impact-card">
+                                <div class="impact-icon">I</div>
+                                <h3>Informed Civic Development</h3>
+                                <p>Developing students' ability to engage thoughtfully with complex policy issues and diverse viewpoints.</p>
+                            </div>
+                            <div class="impact-card">
+                                <div class="impact-icon">S</div>
+                                <h3>Student Engagement</h3>
+                                <p>Creating meaningful opportunities for students to participate in democratic processes and civic life.</p>
+                            </div>
+                            <div class="impact-card">
+                                <div class="impact-icon">E</div>
+                                <h3>Expanding Networks</h3>
+                                <p>Building connections between students, educators, and researchers committed to democratic innovation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-section">
+                        <h2>Our Team</h2>
+                        
+                        <div class="team-category">
+                            <h3>Faculty Advisor</h3>
+                            <div class="team-member">
+                                <div class="member-photo">
+                                    <div class="member-image-placeholder">AS</div>
+                                </div>
+                                <h4>Dr. Alice Siu</h4>
+                                <p class="member-role">Faculty Advisor</p>
+                                <p class="member-bio">Dr. Alice Siu is dedicated to using deliberation to inform and strengthen the ways we engage with each other and our institutions in our society. At the <a href="https://deliberation.stanford.edu/" target="_blank">Stanford Deliberative Democracy Lab</a>, she serves as the Associate Director and pioneers the groundbreaking method of Deliberative Polling®.</p>
+                            </div>
+                        </div>
+
+                        <div class="team-category">
+                            <h3>Leads</h3>
+                            <div class="team-grid">
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">ET</div>
+                                    </div>
+                                    <h4>Evelyn Tsoi</h4>
+                                    <p class="member-role">Lead</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">SS</div>
+                                    </div>
+                                    <h4>Shriya Sreeju</h4>
+                                    <p class="member-role">Lead</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                            <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">AH</div>
+                                    </div>
+                                    <h4>Amira Hutcherson</h4>
+                                    <p class="member-role">Lead</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-category">
+                            <h3>Steering Committee</h3>
+                            <div class="team-grid">
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">AA</div>
+                                    </div>
+                                    <h4>Addya Agarwal</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">MA</div>
+                                    </div>
+                                    <h4>Majdi Alameddine</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">AS</div>
+                                    </div>
+                                    <h4>Aman Solanki</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">AT</div>
+                                    </div>
+                                    <h4>Amy Tang</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">AD</div>
+                                    </div>
+                                    <h4>Aria Das</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">DG</div>
+                                    </div>
+                                    <h4>Dhruv Gupta</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">ER</div>
+                                    </div>
+                                    <h4>Ethan Ram</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">KP</div>
+                                    </div>
+                                    <h4>Kensie Pao</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">RG</div>
+                                    </div>
+                                    <h4>Rishi Gupta</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">SP</div>
+                                    </div>
+                                    <h4>Saina Priyadarshi</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">SS</div>
+                                    </div>
+                                    <h4>Sam Sikri</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">SB</div>
+                                    </div>
+                                    <h4>Sophia Bergmann</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <div class="member-image-placeholder">SG</div>
+                                    </div>
+                                    <h4>Sophia Guneri</h4>
+                                    <p class="member-role">Steering Committee Member</p>
+                                    <p class="member-bio">Coming soon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Contact Us</h1>
+                    <p class="page-subtitle">Get in touch with the Deliberative Democracy Clubs network</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="starting-club">Starting a New Club</option>
+                                    <option value="leadership">Student Leadership</option>
+                                    <option value="faculty">Faculty/Staff Inquiry</option>
+                                    <option value="media">Media/Press</option>
+                                    <option value="general">General Question</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/delibdemocracyclubs" class="social-link" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.svg" alt="Deliberative Democracy Clubs" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description">Building bridges through dialogue, fostering understanding through deliberation, and strengthening democracy through engaged citizenship.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" onclick="showPage('home')">Home</a></li>
+                        <li><a href="#clubs" onclick="showPage('clubs')">Clubs</a></li>
+                        <li><a href="#highlights" onclick="showPage('highlights')">Highlights</a></li>
+                        <li><a href="#about" onclick="showPage('about')">About Us</a></li>
+                        <li><a href="#contact" onclick="showPage('contact')">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links-footer">
+                        <a href="https://instagram.com/delibdemocracyclubs" class="social-link-footer" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Deliberative Democracy Clubs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

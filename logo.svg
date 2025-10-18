@@ -1,0 +1,9 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="4" height="80" fill="#8B0000"/>
+<text x="20" y="28" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#8B0000">Deliberative</text>
+<text x="20" y="48" font-family="Georgia, serif" font-size="18" font-weight="400" fill="#000000">Democracy</text>
+<text x="20" y="68" font-family="Georgia, serif" font-size="18" font-weight="400" fill="#000000">Clubs</text>
+<circle cx="150" cy="40" r="15" fill="#666666"/>
+<circle cx="140" cy="30" r="12" fill="#666666"/>
+<circle cx="160" cy="30" r="12" fill="#666666"/>
+</svg>

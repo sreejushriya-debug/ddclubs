@@ -1,0 +1,29 @@
+{
+  "name": "deliberative-democracy-clubs",
+  "version": "1.0.0",
+  "description": "A modern website for the Deliberative Democracy Clubs network",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to Azure Static Web Apps'"
+  },
+  "keywords": [
+    "democracy",
+    "deliberation",
+    "civic engagement",
+    "education",
+    "static site"
+  ],
+  "author": "Deliberative Democracy Clubs",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/deliberative-democracy-clubs.git"
+  },
+  "homepage": "https://deliberativedemocracyclubs.org"
+}
+
